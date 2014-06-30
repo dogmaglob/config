@@ -1,3 +1,4 @@
-git clone https://github.com/dogmaglob/vim.git ~/.vim
+git clone https://github.com/dogmaglob/config.git
 
-ln -s ~/.vim/vimrc ~/.vimrc
+ln -s config/vimrc ~/.vimrc
+ln -s config/tmux.conf ~./tmux.conf
