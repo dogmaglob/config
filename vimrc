@@ -1,6 +1,9 @@
 execute pathogen#infect()
-filetype plugin indent on
+if has("autocmd")
+    filetype plugin indent on
+endif
 syntax on
+colorscheme peachpuff
 set encoding=utf-8
 set number
 set expandtab
