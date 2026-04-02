@@ -8,3 +8,6 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 ln -s config/vimrc ~/.vimrc
 ln -s config/tmux.conf ~/.tmux.conf
+
+brew install ack
+brew install cloc
